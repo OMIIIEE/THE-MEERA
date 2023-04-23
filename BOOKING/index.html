@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>THE MEERA</title>
+  </head>
+
+  <body class="main_bg">
+    <div class="head">
+        <h1>Welcome to " THE MEERA "</h1>
+    </div>
+
+
+
+    <div class="form">
+      <div class="form-text">
+        <h1>
+          <span><img src="art-1.png" alt="" /></span>Book Now
+          <span><img src="art-1.png" alt="" /></span>
+        </h1>
+        <p>
+            There’s no problem a lounge chair can’t solve.
+        </p>
+      </div>
+      <div class="main-form">
+        <form action="next.html">
+          <div>
+            <span>Your full name ?</span>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Write your name here..."
+              required
+            />
+          </div>
+          <div>
+            <span>Your email address ?</span>
+            <input
+              type="email"
+              name="name"
+              id="name"
+              placeholder="Write your email here..."
+              required
+            />
+          </div>
+          <div class="form-row">
+            <span>How many people ?</span>
+            <input type="number" placeholder="How Many Persons?" min="1" />
+            <!-- <input type = "submit" value = "BOOK TABLE"> -->
+          </div>
+          <div>
+            <span>What time ?</span>
+            <select name="hours" value="0:0" id="hour">
+              <option value = "hour-select">Select Hour</option>
+              <option value="10">02: 00</option>
+              <option value="10">04: 00</option>
+              <option value="10">06: 00</option>
+              <option value="10">08: 00</option>
+              <option value="10">10: 00</option>
+              <option value="10">12: 00</option>
+              <option value="10">14: 00</option>
+              <option value="10">16: 00</option>
+              <option value="10">18: 00</option>
+              <option value="10">20: 00</option>
+              <option value="10">22: 00</option>
+            </select>
+          </div>
+          <div>
+            <span>What is the date ?</span>
+            <input
+              type="date"
+              name="date"
+              id="date"
+              placeholder="date"
+              required
+            />
+          </div>
+          <div>
+            <span>Your phone number ?</span>
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Write your number here..."
+              required
+            />
+          </div>
+          <div id="submit">
+            <input  type="submit" value="SUBMIT" id="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
