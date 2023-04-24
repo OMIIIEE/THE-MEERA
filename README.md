@@ -1,8 +1,12 @@
 # THE-MEERA
 
 Introduction
+
 This is the HTML code for "THE MEERA", a website for a lounge. It provides a booking form where users can enter their details and reserve a table.
+
+
 Features
+
 •	Responsive design that adapts to different screen sizes.
 •	Uses a stylesheet (index.css) for consistent styling.
 •	Provides a booking form with fields for the user's name, email address, phone number, the number of people, the time of booking, and the date of booking.
